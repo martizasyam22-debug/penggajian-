@@ -24,8 +24,8 @@ function authenticateUser($username, $password) {
     if ($result && mysqli_num_rows($result) > 0) {
         $user = mysqli_fetch_assoc($result);
         
-        // Verify password
-        if (password_verify($password, $user['password'])) {
+        // Verify password - support both hashed and plain text
+        if (password_verify($password, $user['password']) || $password === $user['password']) {
             return $user;
         }
     }

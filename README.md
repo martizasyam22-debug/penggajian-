@@ -13,6 +13,12 @@ Koneksi dari PHP ke MySQL sudah menggunakan mysqli
 #Akun login :
 
 Username : admin
-Paswword : admin
+Paswword : admin123
+
+#Karyawan Login :
+Username : ID karyawan (101-108)
+Paswword : employee123
 
 ![Screenshot](screenshot.PNG)
+![Screenshot](screenshot2.PNG)
+![Screenshot](screenshot3.PNG)

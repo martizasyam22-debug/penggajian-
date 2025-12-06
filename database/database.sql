@@ -74,15 +74,15 @@ CREATE TABLE `users` (
 -- --------------------------------------------------------
 
 INSERT INTO `users` (`username`, `password`, `role`, `employee_id`) VALUES
-('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin', NULL),
-('101', '$2y$10$xLxRZq.NtK1h.6ZRYV3OUeF8K.XEcJzxH9r0LXwZgNBWQE2XL8WKy', 'employee', 101),
-('102', '$2y$10$xLxRZq.NtK1h.6ZRYV3OUeF8K.XEcJzxH9r0LXwZgNBWQE2XL8WKy', 'employee', 102),
-('103', '$2y$10$xLxRZq.NtK1h.6ZRYV3OUeF8K.XEcJzxH9r0LXwZgNBWQE2XL8WKy', 'employee', 103),
-('104', '$2y$10$xLxRZq.NtK1h.6ZRYV3OUeF8K.XEcJzxH9r0LXwZgNBWQE2XL8WKy', 'employee', 104),
-('105', '$2y$10$xLxRZq.NtK1h.6ZRYV3OUeF8K.XEcJzxH9r0LXwZgNBWQE2XL8WKy', 'employee', 105),
-('106', '$2y$10$xLxRZq.NtK1h.6ZRYV3OUeF8K.XEcJzxH9r0LXwZgNBWQE2XL8WKy', 'employee', 106),
-('107', '$2y$10$xLxRZq.NtK1h.6ZRYV3OUeF8K.XEcJzxH9r0LXwZgNBWQE2XL8WKy', 'employee', 107),
-('108', '$2y$10$xLxRZq.NtK1h.6ZRYV3OUeF8K.XEcJzxH9r0LXwZgNBWQE2XL8WKy', 'employee', 108);
+('admin', 'admin123', 'admin', NULL),
+('101', 'employee123', 'employee', 101),
+('102', 'employee123', 'employee', 102),
+('103', 'employee123', 'employee', 103),
+('104', 'employee123', 'employee', 104),
+('105', 'employee123', 'employee', 105),
+('106', 'employee123', 'employee', 106),
+('107', 'employee123', 'employee', 107),
+('108', 'employee123', 'employee', 108);
 
 -- --------------------------------------------------------
 -- Table structure for table `salary_slips`
