@@ -20,5 +20,5 @@ Username : ID karyawan (101-108)
 Paswword : employee123
 
 ![Screenshot](screenshot.PNG)
-![Screenshot](screenshot2.PNG)
-![Screenshot](screenshot3.PNG)
+![Screenshot2](screenshot2.PNG)
+![Screenshot3](screenshot3.PNG)
